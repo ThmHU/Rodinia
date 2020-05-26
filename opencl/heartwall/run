@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export DATA_DIR=../../data
+
+./heartwall.out -f ${DATA_DIR}/heartwall/test.avi -i ${DATA_DIR}/heartwall/input.txt -n 104 $@
+
